@@ -16,7 +16,7 @@ pipeline {
         app_url = 'https://064729727835.dkr.ecr.us-east-1.amazonaws.com'
         image_url = '064729727835.dkr.ecr.us-east-1.amazonaws.com/vprofile'
         cluster_name = "vprofile"
-        service_name = "vprofile-app-svc "
+        service_name = "vprofile-app-svc"
   
     }
 
