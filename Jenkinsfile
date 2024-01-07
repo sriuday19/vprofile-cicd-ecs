@@ -15,8 +15,8 @@ pipeline {
         aws_cred = 'ecr:us-east-1:aws-token'
         app_url = 'https://064729727835.dkr.ecr.us-east-1.amazonaws.com'
         image_url = '064729727835.dkr.ecr.us-east-1.amazonaws.com/vprofile'
-        cluster_name = "vprofile-app"
-        servic_name = "vproapp-service"
+        cluster_name = "vprofile"
+        servic_name = "vprofile-app-svc "
   
     }
 
