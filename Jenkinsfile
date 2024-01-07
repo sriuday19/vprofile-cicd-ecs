@@ -93,7 +93,7 @@ pipeline {
 
         stage('deploying to ecs') {
             steps {
-                withAws(credentials: 'aws-token', region: 'us-east-1') {
+                withAWS(credentials: 'aws-token', region: 'us-east-1') {
                     sh 'aws ecs update-service --cluster ${cluster_name} --service ${service_name} --force-new-deploymnet'
                 }
             }
